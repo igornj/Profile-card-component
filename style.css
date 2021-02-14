@@ -1,0 +1,92 @@
+@font-face{
+    font-family: Kumbh Sans;
+    src: url(https://fonts.google.com/specimen/Kumbh+Sans);
+}
+
+#main{
+    width: 1024px;
+    height: 0px;
+    font-size: 18px;
+    font-weight: none;
+    font-family: Kumbh Sans, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+
+.circle01{
+    background-position: top left;
+    width: 50%;
+}
+
+.circle02{
+    background-position: bottom right;
+    width: 50%;
+}
+
+
+#box{
+    background-color: white;
+    width: 22rem;
+    height: 20em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#box .card{
+    width: 22rem;
+    position: relative;
+    top: -07rem;
+    bottom: 0;
+    z-index: 0;
+    border-radius: 15px 15px 0 0;
+ 
+}
+
+#box .logo{
+    z-index: 1;
+    position: relative;
+    top: 80px;
+    border-radius: 50%;
+    border: 5px solid white;
+    
+}
+
+.nomeinfo{
+    width: 100%;
+    text-align: center;
+
+}
+
+.follow{
+    display: block;
+    width: 33%;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+.likes{
+    width: 33%;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.photos{
+    width: 33%;
+    text-align: right;
+    font-size: 15px;
+
+}
+    
