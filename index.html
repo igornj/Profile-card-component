@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel=stylesheet href="/style.css" media="screen"> 
+  <link rel=stylesheet href="./style.css" media="screen"> 
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,20 +16,23 @@
 </head>
 
 <body id=main>
-  <img class=circle01 src="/images/bg-pattern-top.svg" alt="">
-  <img class=circle02 src="/images/bg-pattern-bottom.svg" alt="">
+ <!-- <img class="circle01" src="./images/bg-pattern-top.svg" alt="">-->
+ <!--<img class="circle02" src="./images/bg-pattern-bottom.svg" alt="">-->
   
   <div id="box">
-    <img class=logo src="/images/image-victor.jpg" alt="">
-    <img class=card src="/images/bg-pattern-card.svg" alt="">
+    <img class="logo" src="./images/image-victor.jpg" alt="">
+    <img class="card" src="./images/bg-pattern-card.svg" alt="">
     
-    <h4 class=nomeinfo>Victor Crest 26 London</h4>
+    <h4 class="nomeinfo" style="margin: 0">Victor Crest <span style="color: #ccc;">26</span>  
+      <br> <span style="color:#ccc; font-weight: lighter;">London</span></h4>
   
-    <h4 class=follow>80K Followers</h4>
-
-    <h4 class=likes>803K Likes</h4>
-
-    <h4 class=photos>1.4K Photos</h4>
+   <div id="info">
+    <h4>80K <br> <span style="color:#ccc; font-weight: lighter;">Followers</span></h4>
+    
+    <h4>803K <br> <span style="color:#ccc; font-weight: lighter;">Likes</span></h4>
+    <br>
+    <h4>1.4K <br> <span style="color:#ccc; font-weight: lighter;">Photos</span></h4>
+   </div>  
 
   </div>
  
