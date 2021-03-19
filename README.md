@@ -1,6 +1,6 @@
 # Frontend Mentor - Profile card component
 
-<h1>Challenge done by me <a href="https://github.com/igornj">Igor Nunes</a>
+<h3>Challenge done by me <a href="https://github.com/igornj">Igor Nunes</a></h3>
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
