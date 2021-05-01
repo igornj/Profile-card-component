@@ -1,14 +1,6 @@
-# Frontend Mentor - Profile card component
+# Profile-card-component
+Challenge from:  https://www.frontendmentor.io/challenges
 
-<h3></a>Challenge done by me <a href="https://github.com/igornj">Igor Nunes</a></h3>
-<a href="https://profile-card-component-zeta-six.vercel.app">vercel deploy</a>
+VERCEL PREVIEW: https://profile-card-component-mr6jtclsn-igornj.vercel.app
 
-
-![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
-
-## Welcome! 👋
-
-Thanks for checking out this front-end coding challenge.
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
-
+![count2](https://user-images.githubusercontent.com/78692995/116793566-dd0aec00-aa9d-11eb-8f88-650c51cafcb9.PNG)
